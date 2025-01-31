@@ -1,0 +1,13 @@
+.ag-header .ag-pinned-right-header,
+.ag-body-viewport .ag-pinned-right-cols-container {
+    position: relative;
+    z-index: 1;
+    -webkit-box-shadow: -9px 1px 15px -4px rgba(0, 0, 0, 0.1);
+    box-shadow: -9px 1px 15px -4px rgba(0, 0, 0, 0.1);
+}
+.grid-theme--header{
+  background-color: #25c5c5;
+}
+.status-color{
+  font-weight: 400 !important;
+}

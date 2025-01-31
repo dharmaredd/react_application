@@ -1,0 +1,74 @@
+[
+    {
+        "taskId": 1,
+        "title": "Task-1",
+        "assignedTo": "Jon@gmail.com",
+        "status": "In Progress",
+        "priority": "Low",
+        "startDate": "10-01-2025",
+        "endDate": "12-01-2025"
+    },
+    {
+        "taskId": 2,
+        "title": "Task-2",
+        "assignedTo": "banu@gmail.com",
+        "status": "Not Started",
+        "priority": "Mediam",
+        "startDate": "10-01-2025",
+        "endDate": ""
+    },
+    {
+        "taskId": 3,
+        "title": "Task-3",
+        "assignedTo": "sam@gmail.com",
+        "status": "In Progress",
+        "priority": "High",
+        "startDate": "10-01-2025",
+        "endDate": ""
+    },
+    {
+        "taskId": 4,
+        "title": "Task-4",
+        "assignedTo": "test@gmail.com",
+        "status": "Completed",
+        "priority": "Mediam",
+        "startDate": "10-01-2025",
+        "endDate": "12-01-2025"
+    },
+    {
+        "taskId": 5,
+        "title": "Task-5",
+        "assignedTo": "anil@gmail.com",
+        "status": "Over Due",
+        "priority": "Low",
+        "startDate": "10-01-2025",
+        "endDate": ""
+    },
+    {
+        "taskId": 6,
+        "title": "Task-6",
+        "assignedTo": "raj@gmail.com",
+        "status": "Over Due",
+        "priority": "High",
+        "startDate": "10-01-2025",
+        "endDate": "12-01-2025"
+    },
+    {
+        "taskId": 7,
+        "title": "Task-7",
+        "assignedTo": "pooja@gmail.com",
+        "status": "Not Started",
+        "priority": "Low",
+        "startDate": "10-01-2025",
+        "endDate": ""
+    },
+    {
+        "taskId": 8,
+        "title": "Task-8",
+        "assignedTo": "rama@gmail.com",
+        "status": "Completed",
+        "priority": "Low",
+        "startDate": "10-01-2025",
+        "endDate": "12-01-2025"
+    }
+]
