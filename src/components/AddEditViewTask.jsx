@@ -48,14 +48,14 @@ export function AddEditViewTask({ title, newTaskPayload, taskData }) {
             status: title === 'Add' ? 'Not Started' : taskData.status,
             priority: title === 'Add' ? 'Low' : taskData.priority,
             startDate: title === 'Add' ? dayjs() : dayjs(taskData.startDate, 'DD-MM-YYYY'),
-            endDate: title === 'Add' ? dayjs() : dayjs(taskData.endDate, 'DD-MM-YYYY')
+            endDate: title === 'Add' ? null : taskData.endDate ? dayjs(taskData.endDate, 'DD-MM-YYYY') : null
         },
         validate: validateForm,
         onSubmit: ((values) => {
             const formattedValues = {
                 ...values,
                 startDate: values.startDate.format('DD-MM-YYYY'),
-                endDate: values.endDate.format('DD-MM-YYYY'),
+                endDate: values.endDate ? values.endDate.format('DD-MM-YYYY') : null,
             };
             newTaskPayload(formattedValues);
         })
